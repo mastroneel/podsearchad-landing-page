@@ -1,3 +1,15 @@
-
+.footer {
+  background-color: #33353a;
+  height: 30vh;
+  text-align: center; }
+  .footer p {
+    font-size: 14px;
+    margin-top: 25vh;
+    color: #fff; }
+    .footer p .tm {
+      font-size: 10px;
+      display: block;
+      margin-left: 150px;
+      margin-top: -20px; }
 
 /*# sourceMappingURL=footer.css.map */

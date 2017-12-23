@@ -1,0 +1,159 @@
+@import 'variables';
+
+.media-forms {
+  background-color: $light-gray;
+  padding: 40px 0 60px 0;
+  p {
+    font-family: 'ptserif', serif;
+    text-align: center;
+    color: $dark-gray;
+    font-size: 24px;
+    width: 900px;
+    margin: 0 auto;
+  }
+  .list-wrapper {
+    display: block;
+    width: 260px;
+    margin: 0 auto;
+    ul {
+      list-style-type: none;
+      text-align: left;
+      margin-top: 40px;
+      li {
+        color: $dark-gray;
+        font-size: 22px;
+        margin-top: 20px;
+      }
+      li::before {
+       content: '';
+       display: inline-block;
+       width: 15px;
+       height: 15px;
+       -moz-border-radius: 7.5px;
+       -webkit-border-radius: 7.5px;
+       border-radius: 7.5px;
+       background-color: $green;
+       margin-right: 7px;
+      }
+    }
+  }
+}
+
+// *************
+// Media queries
+// *************
+
+// Increases text size for larger screens
+@media (min-width: 1600px) {
+  .media-forms {
+    p {
+      font-size: 36px;
+      width: 1200px;
+    }
+    .list-wrapper {
+      width: 400px;
+      ul {
+        li {
+          font-size: 36px;
+        }
+        li::before {
+         content: '';
+         display: inline-block;
+         width: 25px;
+         height: 25px;
+         -moz-border-radius: 12.5px;
+         -webkit-border-radius: 12.5px;
+         border-radius: 12.5px;
+         background-color: $green;
+         margin-right: 7px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 2200px) {
+  .media-forms {
+    padding: 80px 0 100px 0;
+    p {
+      font-size: 56px;
+      width: 1800px;
+    }
+    .list-wrapper {
+      width: 550px;
+      ul {
+        li {
+          font-size: 56px;
+        }
+        li::before {
+         content: '';
+         display: inline-block;
+         width: 36px;
+         height: 36px;
+         -moz-border-radius: 18px;
+         -webkit-border-radius: 18px;
+         border-radius: 18px;
+         background-color: $green;
+         margin-right: 7px;
+        }
+      }
+    }
+  }
+}
+
+// Decreases text size for smaller screens
+@media (max-width: 950px) {
+  .media-forms {
+    p {
+      width: 600px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .media-forms {
+    p {
+      width: 500px;
+      font-size: 20px;
+    }
+    .list-wrapper {
+      ul {
+        li {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .media-forms {
+    p {
+      width: 400px;
+      font-size: 18px;
+    }
+    .list-wrapper {
+      ul {
+        li {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .media-forms {
+    p {
+      width: 350px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .media-forms {
+    p {
+      width: 290px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import 'variables';
+
+.contact {
+  padding: 40px 0 60px 0;
+  text-align: center;
+  h1 {
+    font-family: 'ptserif', serif;
+    color: $dark-gray;
+    font-size: 30px;
+  }
+  p {
+    color: $dark-gray;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+}

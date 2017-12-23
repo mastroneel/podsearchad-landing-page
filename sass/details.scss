@@ -1,10 +1,189 @@
 @import 'variables';
 
-.details {
+// Styles for both desktop and mobile
+.details-desktop, .details-mobile {
   text-align: center;
-  padding: 40px 0 60px 0;
+  padding: 40px 0 0 0;
   h1 {
     font-family: 'ptserif', serif;
     color: $dark-gray;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-family: 'ptserif', serif;
+    color: $dark-gray;
+    width: 70px;
+    height: 70px;
+    margin: 15vh auto 0 auto;
+    padding-top: 13px;
+    font-size: 38px;
+    background-color: $light-gray;
+    border: 1px solid $light-gray;
+    border-radius: 50%;
+  }
+  p {
+    font-family: 'ptserif', serif;
+    color: $dark-gray;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  a, a:visited {
+    color: $green;
+    font-size: 22px;
+    transition: 0.2s;
+    text-decoration: none;
+    &:hover {
+      color: $dark-gray;
+      transition: 0.2s;
+      text-decoration: none;
+    }
+  }
+  .text-block {
+    height: 60vh;
+    min-height: 400px;
+  }
+  .proposal-creation {
+    background-image: url('../img/proposal-creation.jpg');
+    background-size: cover;
+  }
+  .media-buying {
+    background-image: url('../img/media-buying.jpg');
+    background-size: cover;
+  }
+  .campaign-prep {
+    background-image: url('../img/campaign-prep.jpg');
+    background-size: cover;
+  }
+  .campaign-management {
+    background-image: url('../img/campaign-management.jpg');
+    background-size: cover;
+  }
+}
+
+// Styles for desktop
+.details-desktop {
+  .proposal-creation {
+    width: 50%;
+    height: 60vh;
+    min-height: 400px;
+  }
+  .media-buying {
+    width: 50%;
+    height: 60vh;
+    min-height: 400px;
+  }
+  .campaign-prep {
+    width: 50%;
+    height: 60vh;
+    min-height: 400px;
+  }
+  .campaign-management {
+    width: 50%;
+    height: 60vh;
+    min-height: 400px;
+  }
+}
+
+// Styles for mobile
+.details-mobile {
+  .proposal-creation {
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+  }
+  .media-buying {
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+  }
+  .campaign-prep {
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+  }
+  .campaign-management {
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+  }
+}
+
+
+// *************
+// Media queries
+// *************
+
+// Hides desktop and shows mobile for small screens
+@media (min-width: 768px) {
+  .details-mobile {
+    display: none;
+  }
+  .details-desktop {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .details-mobile {
+    display: block;
+  }
+  .details-desktop {
+    display: none;
+  }
+}
+
+// Increases text size for larger screens
+@media (min-width: 1500px) {
+  .details-desktop {
+    h1 {
+      font-size: 60px;
+      margin-bottom: 80px;
+    }
+    h2 {
+      font-size: 60px;
+      height: 100px;
+      width: 100px;
+    }
+    p {
+      font-size: 55px;
+    }
+    a {
+      font-size: 40px;
+    }
+  }
+}
+
+// Increases text size for larger screens
+@media (min-width: 2300px) {
+  .details-desktop {
+    h1 {
+      font-size: 80px;
+    }
+    h2 {
+      font-size: 80px;
+      height: 120px;
+      width: 120px;
+    }
+    p {
+      font-size: 75px;
+    }
+    a {
+      font-size: 55px;
+    }
+  }
+}
+
+// Decreases text size for small mobile screens
+@media (max-width: 350px) {
+  .details-mobile {
+    h1 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 22px;
+    }
+    a {
+      font-size: 18px;
+    }
   }
 }

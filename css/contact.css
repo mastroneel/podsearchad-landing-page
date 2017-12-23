@@ -1,3 +1,13 @@
-
+.contact {
+  padding: 40px 0 60px 0;
+  text-align: center; }
+  .contact h1 {
+    font-family: 'ptserif', serif;
+    color: #33353a;
+    font-size: 30px; }
+  .contact p {
+    color: #33353a;
+    font-size: 25px;
+    margin-top: 30px; }
 
 /*# sourceMappingURL=contact.css.map */

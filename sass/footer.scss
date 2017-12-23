@@ -1,0 +1,18 @@
+@import 'variables';
+
+.footer {
+  background-color: $dark-gray;
+  height: 30vh;
+  text-align: center;
+  p {
+    font-size: 14px;
+    margin-top: 25vh;
+    color: $white;
+    .tm {
+      font-size: 10px;
+      display: block;
+      margin-left: 150px;
+      margin-top: -20px;
+    }
+  }
+}
