@@ -1,13 +1,5 @@
-// general styles
-body {
-  padding: 0;
-  margin: 0;
-}
-
-.row {
-  margin: 0;
-  padding: 0;
-}
+// import color variables
+@import 'variables';
 
 // import fonts
 @font-face {
@@ -20,8 +12,18 @@ body {
   src: url("../fonts/ptserif.ttf");
 }
 
-// import color variables
-@import 'variables';
+// general styles
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'avenir', sans-serif;
+  color: $dark-gray;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
 
 // import page sections, in same order they appear on the page
 @import 'hero';

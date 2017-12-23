@@ -1,0 +1,10 @@
+@import 'variables';
+
+.details {
+  text-align: center;
+  padding: 40px 0 60px 0;
+  h1 {
+    font-family: 'ptserif', serif;
+    color: $dark-gray;
+  }
+}

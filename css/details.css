@@ -1,3 +1,8 @@
-
+.details {
+  text-align: center;
+  padding: 40px 0 60px 0; }
+  .details h1 {
+    font-family: 'ptserif', serif;
+    color: #33353a; }
 
 /*# sourceMappingURL=details.css.map */
