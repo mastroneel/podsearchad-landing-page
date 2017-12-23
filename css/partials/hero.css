@@ -1,0 +1,8 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/hero-background.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/hero-background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/hero-background.jpg"); }
+
+/*# sourceMappingURL=hero.css.map */

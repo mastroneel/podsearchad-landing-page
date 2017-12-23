@@ -1,0 +1,32 @@
+// general styles
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+// import fonts
+@font-face {
+  font-family: avenir;
+  src: url("../fonts/avenir.otf");
+}
+
+@font-face {
+  font-family: ptserif;
+  src: url("../fonts/ptserif.ttf");
+}
+
+// import color variables
+@import 'variables';
+
+// import page sections, in same order they appear on the page
+@import 'hero';
+@import 'questions';
+@import 'details';
+@import 'media-forms';
+@import 'contact';
+@import 'footer';
