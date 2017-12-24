@@ -574,6 +574,8 @@ body {
     color: #33353a;
     font-size: 25px;
     margin-top: 30px; }
+    .contact p a, .contact p a:visited {
+      color: #33353a; }
   .contact form {
     width: 900px;
     margin: 0 auto; }
@@ -586,6 +588,8 @@ body {
       border: none;
       border-bottom: 4px solid #33353a;
       width: 100%; }
+      .contact form input:focus {
+        outline: none; }
     .contact form button {
       width: 40%;
       color: #fff;

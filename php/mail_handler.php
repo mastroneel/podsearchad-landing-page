@@ -7,8 +7,8 @@ if(isset($_POST['submit'])){
     $company = $_POST['company'];
     $subject = $_POST['subject'];
     $subject2 = "Copy of your form submission";
-    $message = $firstname . $lastname . " wrote the following:" . "\n\n" . "Name: " . $firstname . $lastname . "\n\n" . "Company name: " . $company . "\n\n" . "From: " . $from . "\n\n" . "Message: " . $_POST['message'];
-    $message2 = "Here is a copy of your message " . "\n\n" . "Name: " . $firstname . $lastname . "\n\n" . "Company name: " . $company . "\n\n" . "From: " . $from . "\n\n" . "Message: " . $_POST['message'];
+    $message = $firstname . $lastname . " wrote the following:" . "\n\n" . "Name: " . $firstname . " " . $lastname . "\n\n" . "Company name: " . $company . "\n\n" . "From: " . $from . "\n\n" . "Message: " . $_POST['message'];
+    $message2 = "Here is a copy of your message " . "\n\n" . "Name: " . $firstname . " " .  $lastname . "\n\n" . "Company name: " . $company . "\n\n" . "From: " . $from . "\n\n" . "Message: " . $_POST['message'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;

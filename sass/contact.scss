@@ -12,6 +12,9 @@
     color: $dark-gray;
     font-size: 25px;
     margin-top: 30px;
+    a, a:visited {
+      color: $dark-gray;
+    }
   }
   form {
     width: 900px;
@@ -27,6 +30,9 @@
       border: none;
       border-bottom: 4px solid $dark-gray;
       width: 100%;
+      &:focus {
+        outline: none;
+      }
     }
     button {
       width: 40%;
