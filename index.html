@@ -96,7 +96,23 @@
         <div class="col-xs-12 col-sm-6 text-block">
           <h2>1</h2>
           <p>Proposal Creation</p>
-          <a href="#">(learn more)</a>
+          <div class="container">
+            <div class="post less">
+              <button class="more-button">(learn more)</button>
+              <button class="less-button">(see less)</button>
+              <ul>
+                <li>
+                  We research podcasts to find those that appeal to your target audience
+                </li>
+                <li>
+                  We create a plan that includes rates within your budget at an optimal schedule according to your timing
+                </li>
+                <li>
+                  We confirm available inventory to match your target timeline
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="col-xs-12 col-sm-6 proposal-creation">
 
@@ -109,14 +125,40 @@
         <div class="col-xs-12 col-sm-6 text-block">
           <h2>2</h2>
           <p>Media Buying</p>
-          <a href="#">(learn more)</a>
+          <div class="container">
+            <div class="post less">
+              <button class="more-button">(learn more)</button>
+              <button class="less-button">(see less)</button>
+              <ul>
+                <li>
+                  Order creation
+                </li>
+                <li>
+                  Order placement to secure ad inventory
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-6 text-block">
           <h2>3</h2>
           <p>Campaign Prep</p>
-          <a href="#">(learn more)</a>
+          <div class="container">
+            <div class="post less">
+              <button class="more-button">(learn more)</button>
+              <button class="less-button">(see less)</button>
+              <ul>
+                <li>
+                  Copy creation
+                </li>
+                <li>
+                  Consultation for direct-response landing pages, promo codes, and vanity URLs
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="col-xs-12 col-sm-6 campaign-prep">
 
@@ -129,7 +171,23 @@
         <div class="col-xs-12 col-sm-6 text-block">
           <h2>4</h2>
           <p>Campaign Management and Optmization</p>
-          <a href="#">(learn more)</a>
+          <div class="container">
+            <div class="post less">
+              <button class="more-button">(learn more)</button>
+              <button class="less-button">(see less)</button>
+              <ul>
+                <li>
+                  We closely review content, delivery, and placement throughout the campaign
+                </li>
+                <li>
+                  We determine optimizations and provide guidance to the shows as needed
+                </li>
+                <li>
+                  We facilitate the invoicing process with the podcasts
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -148,7 +206,23 @@
         <div class="col-xs-12 col-sm-6 text-block">
           <h2>1</h2>
           <p>Proposal Creation</p>
-          <a href="#">(learn more)</a>
+          <div class="container">
+            <div class="post less">
+              <button class="more-button">(learn more)</button>
+              <button class="less-button">(see less)</button>
+              <ul>
+                <li>
+                  We research podcasts to find those that appeal to your target audience
+                </li>
+                <li>
+                  We create a plan that includes rates within your budget at an optimal schedule according to your timing
+                </li>
+                <li>
+                  We confirm available inventory to match your target timeline
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="col-xs-12 col-sm-6 proposal-creation">
 
@@ -158,7 +232,20 @@
         <div class="col-xs-12 col-sm-6 text-block">
           <h2>2</h2>
           <p>Media Buying</p>
-          <a href="#">(learn more)</a>
+          <div class="container">
+            <div class="post less">
+              <button class="more-button">(learn more)</button>
+              <button class="less-button">(see less)</button>
+              <ul>
+                <li>
+                  Order creation
+                </li>
+                <li>
+                  Order placement to secure ad inventory
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="col-xs-12 col-sm-6 media-buying">
 
@@ -168,7 +255,20 @@
         <div class="col-xs-12 col-sm-6 text-block">
           <h2>3</h2>
           <p>Campaign Prep</p>
-          <a href="#">(learn more)</a>
+          <div class="container">
+            <div class="post less">
+              <button class="more-button">(learn more)</button>
+              <button class="less-button">(see less)</button>
+              <ul>
+                <li>
+                  Copy creation
+                </li>
+                <li>
+                  Consultation for direct-response landing pages, promo codes, and vanity URLs
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="col-xs-12 col-sm-6 campaign-prep">
 
@@ -178,7 +278,23 @@
         <div class="col-xs-12 col-sm-6 text-block">
           <h2>4</h2>
           <p>Campaign Management and Optmization</p>
-          <a href="#">(learn more)</a>
+          <div class="container">
+            <div class="post less">
+              <button class="more-button">(learn more)</button>
+              <button class="less-button">(see less)</button>
+              <ul>
+                <li>
+                  We closely review content, delivery, and placement throughout the campaign
+                </li>
+                <li>
+                  We determine optimizations and provide guidance to the shows as needed
+                </li>
+                <li>
+                  We facilitate the invoicing process with the podcasts
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="col-xs-12 col-sm-6 campaign-management">
 
@@ -186,6 +302,31 @@
       </div>
     </div>
     <!-- end details mobile section -->
+
+    <!-- script for learn more/see less button -->
+    <script>
+      //hide "see less" button
+      $(".less-button").hide();
+      //capture click on more button
+      //add class to enlarge div
+      $(".more-button").click(function(){
+      $(this).parent().addClass("more");
+      //hide "see more" button
+      $(this).hide();
+      //show "see less" button
+      $(this).siblings(".less-button").show();
+      });
+      //capture click on less button
+      //remove class to shrink div
+      $(".less-button").click(function(){
+      $(this).parent().removeClass("more");
+      //hide "see less" button again
+      $(this).hide();
+      //show "see more" button... again
+      $(this).siblings(".more-button").show();
+      });
+    </script>
+    <!-- end script for learn more/see less button -->
 
     <!-- media forms section -->
     <div class="media-forms">
@@ -228,6 +369,41 @@
             <br>
             Contact <u>info@podsearch.com</u> or (818) 461-0300 x236
           </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <form action="php/mail_handler.php" method="post">
+            <div class="col-xs-12 col-sm-6">
+              <p>First Name<span>*</span></p>
+              <input type="text" name="firstname">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <p>Last Name<span>*</span></p>
+              <input type="text" name="lastname">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <p>Company Name<span>*</span></p>
+              <input type="text" name="company">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <p>Email Address<span>*</span></p>
+              <input type="text" name="email">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <p>Subject Line<span>*</span></p>
+              <input type="text" name="subject">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <p>Message<span>*</span></p>
+              <input type="text" name="message">
+            </div>
+            <div class="col-xs-12">
+              <div class="button-container">
+                <button class="button" type="submit" name="submit">Submit</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@
     color: $dark-gray;
     width: 70px;
     height: 70px;
-    margin: 15vh auto 0 auto;
+    margin: 10vh auto 0 auto;
     padding-top: 13px;
     font-size: 38px;
     background-color: $light-gray;
@@ -26,17 +26,6 @@
     color: $dark-gray;
     font-size: 30px;
     margin-top: 10px;
-  }
-  a, a:visited {
-    color: $green;
-    font-size: 22px;
-    transition: 0.2s;
-    text-decoration: none;
-    &:hover {
-      color: $dark-gray;
-      transition: 0.2s;
-      text-decoration: none;
-    }
   }
   .text-block {
     height: 60vh;
@@ -58,6 +47,44 @@
     background-image: url('../img/campaign-management.jpg');
     background-size: cover;
   }
+  // see more container and button styles
+  .container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    transition: all 0.5s;}
+    button {
+      margin-bottom: 10px;
+      border: none;
+      background: transparent;
+      color: $green;
+      font-size: 22px;
+      transition: 0.2s;
+      text-decoration: none;
+      &:hover {
+        color: $dark-gray;
+        transition: 0.2s;
+        text-decoration: none;
+      }
+    }
+    .post {
+      margin-bottom: 10px;
+      transition: all 0.5s;
+    }
+    .less {
+      height: 40px; width: 100%;
+      overflow: hidden;
+    }
+    .more {
+      height: 150px; width: 100%;
+      overflow: auto;
+    }
+    ul {
+      text-align: left;
+      li {
+        font-size: 16px;
+      }
+    }
 }
 
 // Styles for desktop
@@ -145,7 +172,7 @@
       width: 100px;
     }
     p {
-      font-size: 55px;
+      font-size: 45px;
     }
     a {
       font-size: 40px;
@@ -184,6 +211,119 @@
     }
     a {
       font-size: 18px;
+    }
+  }
+}
+
+// Changes see more text for larger screens
+@media (min-width: 1600px) {
+  .details-desktop {
+    .more {
+      height: 240px;
+    }
+    button {
+      font-size: 30px;
+    }
+    ul {
+      li {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1900px) {
+  .details-desktop {
+    .less {
+      height: 48px;
+    }
+    .more {
+      height: 320px;
+    }
+    button {
+      font-size: 40px;
+    }
+    ul {
+      li {
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+@media (min-width: 2400px) {
+  .details-desktop {
+    .less {
+      height: 58px;
+    }
+    .more {
+      height: 520px;
+    }
+    button {
+      font-size: 50px;
+    }
+    ul {
+      li {
+        font-size: 34px;
+      }
+    }
+  }
+}
+
+// Changes see more text for smaller screens
+@media (min-width: 768px) and (max-width: 1025px) and (max-height: 720px) {
+  .details-desktop, .details-mobile {
+    .container {
+      width: 100%;
+      .more {
+        height: 190px;
+      }
+    }
+    p {
+      font-size: 24px;
+    }
+    ul {
+      li {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 590px) and (max-height: 720px) {
+  .details-desktop, .details-mobile {
+    .container {
+      width: 100%;
+      .more {
+        height: 190px;
+      }
+    }
+    p {
+      font-size: 24px;
+    }
+    ul {
+      li {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) and (max-height: 720px) {
+  .details-desktop, .details-mobile {
+    .container {
+      width: 100%;
+      .more {
+        height: 190px;
+      }
+    }
+    p {
+      font-size: 24px;
+    }
+    ul {
+      li {
+        font-size: 12px;
+      }
     }
   }
 }
