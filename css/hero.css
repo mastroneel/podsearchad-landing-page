@@ -45,12 +45,12 @@
   .hero .hero-inner img {
     height: 15vh; }
   .hero .hero-inner .border-left {
-    height: 77vh; } }
+    height: 76.8vh; } }
 @media (max-height: 435px) {
   .hero .hero-inner img {
     height: 18vh; }
   .hero .hero-inner .border-left {
-    height: 74vh; } }
+    height: 73.9vh; } }
 @media (max-height: 336px) {
   .hero .hero-inner img {
     height: 19vh; }
@@ -69,7 +69,18 @@
       margin-top: -40px; }
   .hero .hero-inner .text-container .second {
     margin-top: 10px; } }
+@media (max-width: 450px) {
+  .hero .hero-inner .text-container {
+    margin-top: -50vh; } }
 @media (max-width: 800px) {
+  .hero {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/mobile-hero-background.jpg");
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/mobile-hero-background.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/mobile-hero-background.jpg");
+    background-size: cover; } }
+@media (max-width: 800px) {
+  .hero .border-left {
+    height: 79.7vh; }
   .hero .hero-inner {
     width: 90vw; } }
 @media (max-width: 483px) {
@@ -136,6 +147,9 @@
       margin-top: -60px; }
   .hero .hero-inner .text-container .second {
     margin-top: 30px; } }
+@media (min-height: 710px) {
+  .hero .hero-inner .border-left {
+    height: 79.7vh; } }
 @media (min-height: 1100px) and (min-width: 1800px) {
   .hero .hero-inner .text-container p {
     font-size: 55px; }
@@ -174,5 +188,8 @@
           margin-top: -60px; }
       .hero .hero-inner .text-container .second {
         margin-top: 30px; } }
+@media (max-width: 800px) and (min-height: 541px) {
+  .hero .hero-inner .border-left {
+    height: 79.7vh; } }
 
 /*# sourceMappingURL=hero.css.map */

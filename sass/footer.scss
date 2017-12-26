@@ -16,3 +16,23 @@
     }
   }
 }
+
+// ipad styles
+@media (max-width: 768px) and (min-height: 1020px) {
+  .footer {
+    height: 15vh;
+    p {
+      margin-top: 10vh;
+    }
+  }
+}
+
+// ipad pro styles
+@media (max-width: 1024px) and (min-height: 1300px) {
+  .footer {
+    height: 10vh;
+    p {
+      margin-top: 5vh;
+    }
+  }
+}

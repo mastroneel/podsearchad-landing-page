@@ -75,7 +75,7 @@
         height: 15vh;
       }
       .border-left {
-        height: 77vh;
+        height: 76.8vh;
       }
     }
   }
@@ -88,7 +88,7 @@
         height: 18vh;
       }
       .border-left {
-        height: 74vh;
+        height: 73.9vh;
       }
     }
   }
@@ -142,9 +142,39 @@
 
 // Width media queries
 
+// Changes margin-top of text for mobile
+@media (max-width: 450px) {
+  .hero {
+    .hero-inner {
+      .text-container {
+        margin-top: -50vh;
+      }
+    }
+  }
+}
+
+// Changes to moblie background
+@media (max-width: 800px) {
+  .hero {
+    background:
+      -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../img/mobile-hero-background.jpg");
+    background:
+        -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../img/mobile-hero-background.jpg");
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../img/mobile-hero-background.jpg");
+    background-size: cover;
+  }
+}
+
 // changes width of border for mobile devices
 @media (max-width: 800px) {
   .hero {
+    .border-left {
+      height: 79.7vh;
+    }
     .hero-inner {
       width: 90vw;
     }
@@ -325,6 +355,16 @@
   }
 }
 
+@media (min-height: 710px) {
+  .hero {
+    .hero-inner {
+      .border-left {
+        height: 79.7vh;
+      }
+    }
+  }
+}
+
 // Changes text size for larger screens
 @media (min-height: 1100px) and (min-width: 1800px) {
   .hero {
@@ -396,6 +436,16 @@
         .second {
           margin-top: 30px;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) and (min-height: 541px) {
+  .hero {
+    .hero-inner {
+      .border-left {
+        height: 79.7vh;
       }
     }
   }

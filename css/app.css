@@ -61,12 +61,12 @@ body {
   .hero .hero-inner img {
     height: 15vh; }
   .hero .hero-inner .border-left {
-    height: 77vh; } }
+    height: 76.8vh; } }
 @media (max-height: 435px) {
   .hero .hero-inner img {
     height: 18vh; }
   .hero .hero-inner .border-left {
-    height: 74vh; } }
+    height: 73.9vh; } }
 @media (max-height: 336px) {
   .hero .hero-inner img {
     height: 19vh; }
@@ -85,7 +85,18 @@ body {
       margin-top: -40px; }
   .hero .hero-inner .text-container .second {
     margin-top: 10px; } }
+@media (max-width: 450px) {
+  .hero .hero-inner .text-container {
+    margin-top: -50vh; } }
 @media (max-width: 800px) {
+  .hero {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/mobile-hero-background.jpg");
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/mobile-hero-background.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/mobile-hero-background.jpg");
+    background-size: cover; } }
+@media (max-width: 800px) {
+  .hero .border-left {
+    height: 79.7vh; }
   .hero .hero-inner {
     width: 90vw; } }
 @media (max-width: 483px) {
@@ -152,6 +163,9 @@ body {
       margin-top: -60px; }
   .hero .hero-inner .text-container .second {
     margin-top: 30px; } }
+@media (min-height: 710px) {
+  .hero .hero-inner .border-left {
+    height: 79.7vh; } }
 @media (min-height: 1100px) and (min-width: 1800px) {
   .hero .hero-inner .text-container p {
     font-size: 55px; }
@@ -190,6 +204,9 @@ body {
           margin-top: -60px; }
       .hero .hero-inner .text-container .second {
         margin-top: 30px; } }
+@media (max-width: 800px) and (min-height: 541px) {
+  .hero .hero-inner .border-left {
+    height: 79.7vh; } }
 .questions {
   text-align: left;
   padding: 60px 0;
@@ -453,7 +470,7 @@ body {
     font-size: 24px; }
   .details-desktop ul li, .details-mobile ul li {
     font-size: 14px; } }
-@media (max-width: 590px) and (max-height: 720px) {
+@media (max-width: 590px) and (max-height: 812px) {
   .details-desktop .container, .details-mobile .container {
     width: 100%; }
     .details-desktop .container .more, .details-mobile .container .more {
@@ -471,6 +488,44 @@ body {
     font-size: 24px; }
   .details-desktop ul li, .details-mobile ul li {
     font-size: 12px; } }
+@media (max-width: 768px) and (min-height: 1020px) {
+  .details-desktop .proposal-creation, .details-mobile .proposal-creation {
+    height: 460px; }
+  .details-desktop .media-buying, .details-mobile .media-buying {
+    height: 460px; }
+  .details-desktop .campaign-prep, .details-mobile .campaign-prep {
+    height: 460px; }
+  .details-desktop .campaign-management, .details-mobile .campaign-management {
+    height: 460px; }
+  .details-desktop .text-block, .details-mobile .text-block {
+    height: 460px; }
+  .details-desktop .container, .details-mobile .container {
+    width: 100%; }
+    .details-desktop .container .more, .details-mobile .container .more {
+      height: 290px; }
+  .details-desktop p, .details-mobile p {
+    font-size: 24px; }
+  .details-desktop ul li, .details-mobile ul li {
+    font-size: 14px; } }
+@media (max-width: 1024px) and (min-height: 1300px) {
+  .details-desktop .proposal-creation, .details-mobile .proposal-creation {
+    height: 460px; }
+  .details-desktop .media-buying, .details-mobile .media-buying {
+    height: 460px; }
+  .details-desktop .campaign-prep, .details-mobile .campaign-prep {
+    height: 460px; }
+  .details-desktop .campaign-management, .details-mobile .campaign-management {
+    height: 460px; }
+  .details-desktop .text-block, .details-mobile .text-block {
+    height: 460px; }
+  .details-desktop .container, .details-mobile .container {
+    width: 100%; }
+    .details-desktop .container .more, .details-mobile .container .more {
+      height: 290px; }
+  .details-desktop p, .details-mobile p {
+    font-size: 24px; }
+  .details-desktop ul li, .details-mobile ul li {
+    font-size: 15px; } }
 .media-forms {
   background-color: #e8e8e8;
   padding: 40px 0 60px 0; }
@@ -650,5 +705,16 @@ body {
       display: block;
       margin-left: 150px;
       margin-top: -20px; }
+
+@media (max-width: 768px) and (min-height: 1020px) {
+  .footer {
+    height: 15vh; }
+    .footer p {
+      margin-top: 10vh; } }
+@media (max-width: 1024px) and (min-height: 1300px) {
+  .footer {
+    height: 10vh; }
+    .footer p {
+      margin-top: 5vh; } }
 
 /*# sourceMappingURL=app.css.map */
