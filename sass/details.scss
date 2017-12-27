@@ -165,7 +165,7 @@
 }
 
 // Increases text size for larger screens
-@media (min-width: 1500px) {
+@media (min-width: 1500px) and (min-height: 900px) {
   .details-desktop {
     h1 {
       font-size: 60px;
@@ -186,7 +186,7 @@
 }
 
 // Increases text size for larger screens
-@media (min-width: 2300px) {
+@media (min-width: 2300px) and (min-height: 1200px){
   .details-desktop {
     h1 {
       font-size: 80px;
@@ -221,7 +221,7 @@
 }
 
 // Changes see more text for larger screens
-@media (min-width: 1600px) {
+@media (min-width: 1600px) and (min-height: 1000px) {
   .details-desktop {
     .more {
       height: 260px;
@@ -237,7 +237,7 @@
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1900px) and (min-height: 1000px) {
   .details-desktop {
     .less {
       height: 48px;
@@ -256,7 +256,7 @@
   }
 }
 
-@media (min-width: 2400px) {
+@media (min-width: 2400px) and (min-height: 1200px) {
   .details-desktop {
     .less {
       height: 58px;

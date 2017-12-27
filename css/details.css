@@ -119,7 +119,7 @@
 
   .details-desktop {
     display: none; } }
-@media (min-width: 1500px) {
+@media (min-width: 1500px) and (min-height: 900px) {
   .details-desktop h1 {
     font-size: 60px;
     margin-bottom: 80px; }
@@ -131,7 +131,7 @@
     font-size: 45px; }
   .details-desktop a {
     font-size: 40px; } }
-@media (min-width: 2300px) {
+@media (min-width: 2300px) and (min-height: 1200px) {
   .details-desktop h1 {
     font-size: 80px; }
   .details-desktop h2 {
@@ -149,14 +149,14 @@
     font-size: 22px; }
   .details-mobile a {
     font-size: 18px; } }
-@media (min-width: 1600px) {
+@media (min-width: 1600px) and (min-height: 1000px) {
   .details-desktop .more {
     height: 260px; }
   .details-desktop button {
     font-size: 30px; }
   .details-desktop ul li {
     font-size: 24px; } }
-@media (min-width: 1900px) {
+@media (min-width: 1900px) and (min-height: 1000px) {
   .details-desktop .less {
     height: 48px; }
   .details-desktop .more {
@@ -165,7 +165,7 @@
     font-size: 40px; }
   .details-desktop ul li {
     font-size: 28px; } }
-@media (min-width: 2400px) {
+@media (min-width: 2400px) and (min-height: 1200px) {
   .details-desktop .less {
     height: 58px; }
   .details-desktop .more {
