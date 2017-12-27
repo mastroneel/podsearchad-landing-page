@@ -151,7 +151,7 @@
     font-size: 18px; } }
 @media (min-width: 1600px) {
   .details-desktop .more {
-    height: 240px; }
+    height: 260px; }
   .details-desktop button {
     font-size: 30px; }
   .details-desktop ul li {
@@ -160,7 +160,7 @@
   .details-desktop .less {
     height: 48px; }
   .details-desktop .more {
-    height: 320px; }
+    height: 340px; }
   .details-desktop button {
     font-size: 40px; }
   .details-desktop ul li {
@@ -169,7 +169,7 @@
   .details-desktop .less {
     height: 58px; }
   .details-desktop .more {
-    height: 520px; }
+    height: 550px; }
   .details-desktop button {
     font-size: 50px; }
   .details-desktop ul li {

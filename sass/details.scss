@@ -80,7 +80,8 @@
       overflow: hidden;
     }
     .more {
-      height: 165px; width: 100%;
+      height: 165px;
+      width: 100%;
       overflow: auto;
     }
     ul {
@@ -223,7 +224,7 @@
 @media (min-width: 1600px) {
   .details-desktop {
     .more {
-      height: 240px;
+      height: 260px;
     }
     button {
       font-size: 30px;
@@ -242,7 +243,7 @@
       height: 48px;
     }
     .more {
-      height: 320px;
+      height: 340px;
     }
     button {
       font-size: 40px;
@@ -261,7 +262,7 @@
       height: 58px;
     }
     .more {
-      height: 520px;
+      height: 550px;
     }
     button {
       font-size: 50px;
