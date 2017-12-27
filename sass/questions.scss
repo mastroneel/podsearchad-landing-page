@@ -2,7 +2,7 @@
 
 .questions {
   text-align: left;
-  padding: 60px 0;
+  padding: 10px 0 60px 0;
   background-color: $light-gray;
   h1, h2 {
     text-align: center;
@@ -109,6 +109,16 @@
     width: 90%;
     font-size: 25px;
     text-align: center;
+  }
+}
+
+@media (max-width: 414px) {
+  .questions {
+    h2 {
+      .tm {
+        margin-left: 205px;
+      }
+    }
   }
 }
 
