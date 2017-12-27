@@ -26,16 +26,20 @@
     min-height: 400px; }
   .details-desktop .proposal-creation, .details-mobile .proposal-creation {
     background-image: url("../img/proposal-creation.jpg");
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
   .details-desktop .media-buying, .details-mobile .media-buying {
     background-image: url("../img/media-buying.jpg");
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
   .details-desktop .campaign-prep, .details-mobile .campaign-prep {
     background-image: url("../img/campaign-prep.jpg");
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
   .details-desktop .campaign-management, .details-mobile .campaign-management {
     background-image: url("../img/campaign-management.jpg");
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
   .details-desktop .container, .details-mobile .container {
     width: 90%;
     margin: auto;
@@ -88,20 +92,20 @@
 
 .details-mobile .proposal-creation {
   width: 100%;
-  height: 60vh;
-  min-height: 400px; }
+  height: 50vh;
+  min-height: 350px; }
 .details-mobile .media-buying {
   width: 100%;
-  height: 60vh;
-  min-height: 400px; }
+  height: 50vh;
+  min-height: 350px; }
 .details-mobile .campaign-prep {
   width: 100%;
-  height: 60vh;
-  min-height: 400px; }
+  height: 50vh;
+  min-height: 350px; }
 .details-mobile .campaign-management {
   width: 100%;
-  height: 60vh;
-  min-height: 400px; }
+  height: 50vh;
+  min-height: 350px; }
 
 @media (min-width: 768px) {
   .details-mobile {
