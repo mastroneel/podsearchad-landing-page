@@ -21,18 +21,19 @@
   .questions .underline {
     width: 200px;
     height: 0;
-    margin: 20px auto;
+    margin: 20px auto 60px auto;
     border-bottom: 6px solid #22aa78; }
   .questions .search-bar {
     width: 1100px;
-    margin: -20px auto 0 auto;
+    margin: 40px auto 0 auto;
     border-bottom: 4px solid #33353a; }
     .questions .search-bar img {
       width: 30px;
       float: right;
-      margin-top: -35px; }
+      margin-top: -45px; }
 
-#typed {
+.typed {
+  margin-top: 40px;
   min-height: 40px;
   width: 1100px;
   display: block;
@@ -46,7 +47,7 @@
   .questions .search-bar {
     width: 900px; }
 
-  #typed {
+  .typed {
     width: 900px;
     font-size: 20px; } }
 @media (max-width: 930px) {
@@ -60,7 +61,7 @@
   .questions .search-bar {
     width: 700px; }
 
-  #typed {
+  .typed {
     min-height: 25px;
     width: 700px;
     font-size: 15px; } }
@@ -70,17 +71,18 @@
   .questions .search-bar {
     display: none; }
 
-  #typed {
+  .typed {
     min-height: 110px;
     width: 90%;
     font-size: 25px;
     text-align: center; } }
 @media (max-width: 414px) {
-  .questions h2 .tm {
-    margin-left: 205px; } }
-@media (max-width: 380px) {
-  #typed {
-    width: 95%;
+  .questions h2 {
+    margin-top: 40px; }
+    .questions h2 .tm {
+      margin-left: 205px; }
+
+  .typed {
     min-height: 100px;
     font-size: 18px; } }
 
